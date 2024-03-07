@@ -1,0 +1,187 @@
+* {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  min-height: 100vh;
+  line-height: 1.4;
+  display: grid;
+  place-content: center;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+h1,h2{
+  font-family:"Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal; ;
+}
+
+h2{
+  color: hsl(14, 45%, 36%);
+}
+
+.instrucoes{
+  margin: 1rem 0;
+}
+
+.nutrition{
+  margin-top: 1rem;
+}
+
+.attribution {
+  text-decoration: none;
+}
+
+
+h1{
+    justify-content: center;
+    text-align: center;
+}
+
+#subtitulo{
+    justify-content: center;
+    text-align: center;
+}
+
+
+#li_1{
+  font-size: 16px;
+  padding-left: 1.25rem;
+}
+
+#li_2{
+  font-size: 16px;
+  padding-left: 1.25rem;
+}
+
+ul li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+ul li, span{
+  color: hsl(30, 10%, 34%);
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.conteiner .recipe-image{
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+hr{
+  margin: 1.5rem 0;
+  border: 1px solid hsl(30, 18%, 87%);
+}
+
+#li_3{
+  font-size: 16px;
+}
+
+.conteiner{
+  max-width: 800px;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.conteiner .image_recipe{
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+ img{
+  border-radius: 1rem;
+}
+
+.preparation{
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.25rem;
+  border-radius: 1rem;
+}
+
+.preparation h2{
+  color: hsl(332, 51%, 32%);
+}
+
+.recipe_info{
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.subtitulo{
+  margin: 1.5rem 0;
+}
+
+.ingredients li{
+  margin-bottom: .5rem;
+}
+
+.ingredients li span{
+  font-weight: initial;
+}
+
+.instrucoes .item{
+  padding-left: .5rem;
+  margin-bottom: .5rem;
+  display: flex;
+}
+
+.instrucoes .item .num{
+  color: hsl(14, 45%, 36%);
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+.instrucoes .item p span{
+  font-weight: 700;
+}
+
+.nutrition .values{
+  margin-bottom: 1rem;
+}
+
+.table_nutri .item{
+  padding: .75rem 2rem;
+  display: flex;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.table_nutri .item:last-child{
+  border-bottom: 0;
+}
+
+.table_nutri .item p:nth-child(2){
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.table_nutri .item > *{
+  width: 100px;
+  margin-right: auto;
+}
+
+@media (max-width: 540px){
+  h1{
+    margin-top: 2rem;
+  }
+  .conteiner{
+    margin: 0;
+  }
+  .conteiner .recipe-image{
+    padding:0;
+    border-radius: 0;
+  }
+}
